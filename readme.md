@@ -37,3 +37,19 @@ erDiagram
   }
   OWNERS ||--|{ DOGS : owns
 ```
+
+```
+erDiagram
+  OWNERS {
+  int id
+  string name
+  int age
+  }
+  DOGS {
+  int id
+  string name
+  int age
+  int owner_id
+  }
+  OWNERS ||--|{ DOGS : owns
+```
